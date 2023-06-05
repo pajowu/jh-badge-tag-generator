@@ -1,0 +1,3 @@
+[submodule "scad-files"]
+	path = scad-files
+	url = https://github.com/rohieb/bottle-clip-name-tag

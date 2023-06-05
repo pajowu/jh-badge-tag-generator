@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>JH Bottle Clip Generator</title>
+    <script type="text/javascript" src="main.js"></script>
+    <link  rel="stylesheet" href="main.css"/>
+  </head>
+  <body>
+    <form id="bottle_selection_form">
+      <select id="bottle_type_selector"></select>
+      <button>Load</button>
+    </form>
+    <form id="clip_form">
+      <label>Name: <input type="text" name="label"></label>
+      <label>Radius Lower: <input type="number" step="0.1" name="rl"></label>
+      <label>Radius Upper: <input type="number" step="0.1" name="ru"></label>
+      <label>Height: <input type="number" step="0.1" name="ht"></label>
+      <label>Gap: <input type="number" step="0.1" name="gap"></label>
+      <button id="generate_button">Generate Tag</button>
+    </form>
+  </body>
+</html>
